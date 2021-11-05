@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li, a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    font-size: 18px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav-items {
+    list-style: none;
+}
+
+.nav-items li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-items li a, .email i, .logo {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-items li a:hover, .email i:hover, .logo:hover {
+    color: #0088a9;
+}
+
